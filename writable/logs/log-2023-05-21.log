@@ -1,0 +1,9 @@
+CRITICAL - 2023-05-21 00:10:00 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\sistemearsip\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\sistemearsip\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\sistemearsip\app\Controllers\User.php(99): CodeIgniter\Model->__call('add', Array)
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\User->insert()
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

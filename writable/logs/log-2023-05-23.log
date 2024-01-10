@@ -1,0 +1,26 @@
+ERROR - 2023-05-23 07:40:25 --> Unknown column 'tbl_arsip.id_' in 'on clause'
+CRITICAL - 2023-05-23 07:40:25 --> Unknown column 'tbl_arsip.id_' in 'on clause'
+#0 C:\xampp\htdocs\sistemearsip\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sistemearsip\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sistemearsip\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sistemearsip\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistemearsip\app\Models\Model_arsip.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(16): App\Models\Model_arsip->alldata()
+#6 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->index()
+#7 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#8 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-23 07:47:53 --> Unknown column 'tbl_arsip.id_' in 'on clause'
+CRITICAL - 2023-05-23 07:47:53 --> Unknown column 'tbl_arsip.id_' in 'on clause'
+#0 C:\xampp\htdocs\sistemearsip\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sistemearsip\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sistemearsip\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sistemearsip\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistemearsip\app\Models\Model_arsip.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(17): App\Models\Model_arsip->alldata()
+#6 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->index()
+#7 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#8 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

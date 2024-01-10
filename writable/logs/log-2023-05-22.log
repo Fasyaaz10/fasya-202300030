@@ -1,0 +1,26 @@
+CRITICAL - 2023-05-22 09:03:36 --> Undefined index: user
+#0 C:\xampp\htdocs\sistemearsip\app\Views\user\v_edit.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\sistemearsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemearsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistemearsip\system\Common.php(1089): CodeIgniter\View\View->render('user/v_edit', Array, true)
+#4 C:\xampp\htdocs\sistemearsip\app\Views\layout\v_content.php(3): view('user/v_edit')
+#5 C:\xampp\htdocs\sistemearsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sistemearsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\sistemearsip\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#8 C:\xampp\htdocs\sistemearsip\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#9 C:\xampp\htdocs\sistemearsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\sistemearsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\sistemearsip\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#12 C:\xampp\htdocs\sistemearsip\app\Controllers\User.php(119): view('layout/v_wrappe...', Array)
+#13 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\User->edit('3')
+#14 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#15 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-05-22 09:38:15 --> Undefined index: user
+#0 C:\xampp\htdocs\sistemearsip\app\Controllers\User.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 185, Array)
+#1 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\User->update('3')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,148 @@
+CRITICAL - 2023-05-25 10:56:32 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\sistemearsip\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\sistemearsip\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(108): CodeIgniter\Model->__call('detail_data', Array)
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->edit('5')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#5 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-05-25 10:57:26 --> Unknown column 'tbl_arsip.id_' in 'on clause'
+CRITICAL - 2023-05-25 10:57:27 --> Unknown column 'tbl_arsip.id_' in 'on clause'
+#0 C:\xampp\htdocs\sistemearsip\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sistemearsip\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sistemearsip\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sistemearsip\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistemearsip\app\Models\Model_arsip.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(108): App\Models\Model_arsip->detaildata('5')
+#6 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->edit('5')
+#7 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#8 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-25 11:02:28 --> Unknown column 'tbl_arsip.id_' in 'on clause'
+CRITICAL - 2023-05-25 11:02:28 --> Unknown column 'tbl_arsip.id_' in 'on clause'
+#0 C:\xampp\htdocs\sistemearsip\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sistemearsip\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sistemearsip\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sistemearsip\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistemearsip\app\Models\Model_arsip.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(108): App\Models\Model_arsip->detaildata('5')
+#6 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->edit('5')
+#7 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#8 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-25 20:21:51 --> Undefined index: $no_arsip
+#0 C:\xampp\htdocs\sistemearsip\app\Views\arsip\v_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\sistemearsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemearsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistemearsip\system\Common.php(1089): CodeIgniter\View\View->render('arsip/v_edit', Array, true)
+#4 C:\xampp\htdocs\sistemearsip\app\Views\layout\v_content.php(3): view('arsip/v_edit')
+#5 C:\xampp\htdocs\sistemearsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sistemearsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\sistemearsip\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#8 C:\xampp\htdocs\sistemearsip\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#9 C:\xampp\htdocs\sistemearsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\sistemearsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\sistemearsip\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#12 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(112): view('layout/v_wrappe...', Array)
+#13 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->edit('5')
+#14 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#15 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-05-25 20:44:06 --> Illegal string offset 'id_arsip'
+#0 C:\xampp\htdocs\sistemearsip\app\Models\Model_arsip.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(162): App\Models\Model_arsip->edit('5')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->update('5')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-25 20:50:08 --> Illegal string offset 'id_arsip'
+#0 C:\xampp\htdocs\sistemearsip\app\Models\Model_arsip.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(162): App\Models\Model_arsip->edit('5')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->update('5')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-25 20:50:40 --> Illegal string offset 'id_arsip'
+#0 C:\xampp\htdocs\sistemearsip\app\Models\Model_arsip.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(162): App\Models\Model_arsip->edit('5')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->update('5')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-25 20:52:26 --> Illegal string offset 'id_arsip'
+#0 C:\xampp\htdocs\sistemearsip\app\Models\Model_arsip.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(162): App\Models\Model_arsip->edit('5')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->update('5')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-25 20:59:46 --> Illegal string offset 'id_arsip'
+#0 C:\xampp\htdocs\sistemearsip\app\Models\Model_arsip.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(162): App\Models\Model_arsip->edit('5')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->update('5')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-25 21:12:54 --> Undefined variable: user
+#0 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 201, Array)
+#1 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->delete('6')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 21:13:08 --> Undefined property: App\Controllers\Arsip::$Model_user
+#0 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->delete('6')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-25 21:13:28 --> unlink(file_arsip/1685067163_7ea0c33c96e14b40eb63.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(file_ars...', 'C:\\xampp\\htdocs...', 201, Array)
+#1 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(201): unlink('file_arsip/1685...')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->delete('6')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-25 21:15:39 --> unlink(file_arsip/1685067163_7ea0c33c96e14b40eb63.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(file_ars...', 'C:\\xampp\\htdocs...', 201, Array)
+#1 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(201): unlink('file_arsip/1685...')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->delete('6')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-25 21:16:06 --> unlink(file_arsip/1685067163_7ea0c33c96e14b40eb63.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(file_ars...', 'C:\\xampp\\htdocs...', 201, Array)
+#1 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(201): unlink('file_arsip/1685...')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->delete('6')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-25 21:22:07 --> unlink(file_arsip/1685067163_7ea0c33c96e14b40eb63.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(file_ars...', 'C:\\xampp\\htdocs...', 201, Array)
+#1 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(201): unlink('file_arsip/1685...')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->delete('6')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-25 21:23:00 --> unlink(file_arsip/1685067163_7ea0c33c96e14b40eb63.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(file_ars...', 'C:\\xampp\\htdocs...', 166, Array)
+#1 C:\xampp\htdocs\sistemearsip\app\Controllers\Arsip.php(166): unlink('file_arsip/1685...')
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Arsip->update('6')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Arsip))
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

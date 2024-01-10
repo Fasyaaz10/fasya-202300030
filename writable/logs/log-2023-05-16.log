@@ -1,0 +1,18 @@
+CRITICAL - 2023-05-16 07:14:26 --> Array callback has to contain indices 0 and 1
+#0 C:\xampp\htdocs\sistemearsip\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\sistemearsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\sistemearsip\system\Common.php(1089): CodeIgniter\View\View->render('v_kategori', Array, true)
+#3 C:\xampp\htdocs\sistemearsip\app\Views\layout\v_content.php(3): view('v_kategori')
+#4 C:\xampp\htdocs\sistemearsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sistemearsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\sistemearsip\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#7 C:\xampp\htdocs\sistemearsip\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#8 C:\xampp\htdocs\sistemearsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\sistemearsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 C:\xampp\htdocs\sistemearsip\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#11 C:\xampp\htdocs\sistemearsip\app\Controllers\Kategori.php(19): view('layout/v_wrappe...', Array)
+#12 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Kategori->index()
+#13 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#14 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}

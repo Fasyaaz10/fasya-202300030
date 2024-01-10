@@ -1,0 +1,54 @@
+CRITICAL - 2024-01-09 12:24:06 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\sistemearsip\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\sistemearsip\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemearsip\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\sistemearsip\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\sistemearsip\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-09 15:16:30 --> Class 'App\Filters\Filter_auth' not found
+#0 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('auth', 'after')
+#1 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2024-01-09 15:17:30 --> Interface 'App\Filters\FilterInterFace' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-01-09 15:17:47 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\sistemearsip\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sistemearsip\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Fil...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Fil...')
+#3 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(166): spl_autoload_call('App\\Filters\\Fil...')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('auth', 'after')
+#5 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-09 15:19:43 --> Class App\Filters\Filter_auth contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::before, CodeIgniter\Filters\FilterInterface::after)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-01-09 15:41:49 --> syntax error, unexpected '{', expecting identifier (T_STRING) or namespace (T_NAMESPACE) or \\ (T_NS_SEPARATOR)
+#0 C:\xampp\htdocs\sistemearsip\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sistemearsip\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Fil...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Fil...')
+#3 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(166): spl_autoload_call('App\\Filters\\Fil...')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home', 'before')
+#5 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-01-09 15:44:13 --> Interface 'App\Filters\FilterInterFace' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-01-09 15:45:47 --> Interface 'App\Filters\FilterInterFace' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-01-09 15:47:14 --> Class 'Config\CodeIgniter\Filters\DebugToolbar' not found
+#0 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('auth', 'after')
+#1 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2024-01-09 15:47:34 --> Class 'Config\CodeIgniter\Filters\DebugToolbar' not found
+#0 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('auth', 'after')
+#1 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}

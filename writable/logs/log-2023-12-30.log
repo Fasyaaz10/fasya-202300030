@@ -1,0 +1,24 @@
+ERROR - 2023-12-30 19:06:01 --> Error connecting to the database: Unknown database 'e-arsip-ci4'
+CRITICAL - 2023-12-30 19:06:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'e-arsip-ci4'
+#0 C:\xampp\htdocs\sistemearsip\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sistemearsip\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sistemearsip\app\Models\Model_auth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sistemearsip\app\Controllers\Auth.php(43): App\Models\Model_auth->login('admin@gmail.com', '1234')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#5 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-12-30 19:06:02 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sistemearsip\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\sistemearsip\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Auth), true)
+#2 C:\xampp\htdocs\sistemearsip\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sistemearsip\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\sistemearsip\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

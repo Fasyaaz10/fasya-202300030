@@ -1,0 +1,72 @@
+CRITICAL - 2023-06-12 19:21:13 --> filterpengguna filter must have a matching alias defined.
+#0 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filterpengguna')
+#1 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('auth/logout')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/logout', 'before')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-12 19:22:22 --> filterpengguna filter must have a matching alias defined.
+#0 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filterpengguna')
+#1 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('auth/logout')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/logout', 'before')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-12 19:22:29 --> filterpengguna filter must have a matching alias defined.
+#0 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filterpengguna')
+#1 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('auth/logout')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/logout', 'before')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-12 19:25:08 --> filterpengguna filter must have a matching alias defined.
+#0 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filterpengguna')
+#1 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('auth/logout')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth/logout', 'before')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-12 19:25:11 --> filterpengguna filter must have a matching alias defined.
+#0 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filterpengguna')
+#1 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('home')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home', 'before')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-12 19:25:14 --> filterpengguna filter must have a matching alias defined.
+#0 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filterpengguna')
+#1 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('auth')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth', 'before')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-12 19:25:15 --> filterpengguna filter must have a matching alias defined.
+#0 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filterpengguna')
+#1 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('user')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user', 'before')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-12 19:26:44 --> filterpengguna filter must have a matching alias defined.
+#0 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filterpengguna')
+#1 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('user')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user', 'before')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-12 19:28:31 --> filterpengguna filter must have a matching alias defined.
+#0 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filterpengguna')
+#1 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\sistemearsip\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('auth')
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('auth', 'before')
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

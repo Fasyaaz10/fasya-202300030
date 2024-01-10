@@ -1,0 +1,8 @@
+CRITICAL - 2023-05-17 07:59:20 --> Undefined variable: data
+#0 C:\xampp\htdocs\sistemearsip\app\Models\Model_kategori.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\sistemearsip\app\Controllers\Kategori.php(26): App\Models\Model_kategori->tambah(Array)
+#2 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(832): App\Controllers\Kategori->tambah()
+#3 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#4 C:\xampp\htdocs\sistemearsip\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistemearsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
